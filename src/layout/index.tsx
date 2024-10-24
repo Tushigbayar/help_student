@@ -4,17 +4,15 @@ import Footer from "../components/Footer";
 import Button from "@/components/Button";
 
 interface IProps {
-  header?: any;
-  footer?: any;
   children: any;
 }
 
 const DefaultLayout = (props: IProps) => {
   return (
     <main className="">
-      <Header {...(props.header || {})} />
+      <Header />
       {props.children}
-      <Footer {...(props.footer || {})} />
+      <Footer />
       <Button />
     </main>
   );

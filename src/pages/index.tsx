@@ -11,7 +11,7 @@ import Button from "@/components/Button";
 
 const IndexPage: React.FC = () => {
   return (
-    <DefaultLayout header={{ isIndex: true }}>
+    <DefaultLayout>
       <Section1 />
       <Section2 />
       <Section3 />
